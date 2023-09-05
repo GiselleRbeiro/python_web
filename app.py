@@ -14,5 +14,5 @@ posts = [
 ]
 @app.route("/")
 def exibir_entradas():
-    entradas = posts #Mock das postagens
+    entradas = posts 
     return render_template("exibir_entradas.html", entrada=entradas)
